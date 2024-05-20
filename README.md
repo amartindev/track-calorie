@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Track Calories
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Track Calories es una aplicación simple para registrar y hacer un seguimiento de las calorías consumidas a lo largo del día. Este proyecto está construido utilizando React y está diseñado para ayudarte a mantener un registro de tus hábitos alimenticios y de ejercicio.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Registra actividades de comida y ejercicio, incluyendo el nombre, la categoría y las calorías asociadas.
+- Visualiza un resumen de las calorías consumidas y quemadas.
+- Mantén un historial de tus actividades anteriores.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este proyecto fue creado con:
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que agrega tipado estático opcional.
+- **HTML5**: Lenguaje de marcado para la estructura de la página web.
+- **CSS3**: Lenguaje de estilo para el diseño y la presentación, con estilos escritos en Less para una mayor modularidad y reutilización..
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Autor
+
+Este proyecto fue desarrollado por Antonio Martin(#) como parte de un proyecto personal. Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
